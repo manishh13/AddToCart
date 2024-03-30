@@ -1,0 +1,53 @@
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 700;
+  font-variant: small-caps;
+  font-stretch: narrower;
+  font-style: oblique;
+  font-kerning: auto;
+
+  color: sandybrown;
+}
+ul > li {
+  display: inline;
+  padding: 20px;
+  font-size: 25px;
+}
+.form-btn-div {
+  height: 50%;
+  width: 150px;
+  /* border: 1px solid black; */
+}
+/* Product Page Style */
+.product-div {
+  height: 500px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blanchedalmond;
+  border: 1px solid black;
+}
+.product-img-div {
+  height: 60%;
+  width: 100%;
+  border: 1px solid red;
+}
+.product-img-div > img {
+  width: 100%;
+  height: 100%;
+}
+.product-div > button {
+  padding: 10px 50px;
+}
